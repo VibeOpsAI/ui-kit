@@ -1,0 +1,107 @@
+---
+description: Adding New Previews to VibeOps UI Kit
+globs: 
+alwaysApply: false
+---
+# Adding New Previews to VibeOps UI Kit
+
+## File Structure
+New previews should be added in the following structure:
+```
+app/preview/[category]/[variant]/page.tsx
+```
+
+Example:
+```
+app/preview/login/split/page.tsx
+app/preview/hero-section/one/page.tsx
+```
+
+## Steps to Add a New Preview
+
+1. Create the preview page:
+   - Create a new directory under `app/preview/[category]/[variant]`
+   - Create `page.tsx` in that directory
+   - Implement your UI component using the existing components from `components/ui/`
+
+2. Add to blocks configuration:
+   - Open `data/blocks.ts`
+   - Add a new entry to the `blocks` array with the following structure:
+   ```typescript
+   {
+     slug: string,        // URL-friendly name (e.g., "login")
+     title: string,       // Display name (e.g., "split")
+     category: string,    // Category name (e.g., "login")
+     preview: string,     // Preview path (e.g., "/preview/login/split")
+     code: string         // Code content from loadCode function
+   }
+   ```
+
+3. Example:
+   ```typescript
+   {
+     slug: "login",
+     title: "split",
+     category: "login",
+     preview: "/preview/login/split",
+     code: loadCode('app/preview/login/split/page.tsx')
+   }
+   ```
+
+## Best Practices
+
+1. Use existing UI components from `components/ui/`
+2. Follow the established styling patterns
+3. Ensure the preview is responsive
+4. Include proper TypeScript types
+5. Use the existing layout structure
+6. Test the preview at both `/preview/[category]/[variant]` and `/[category]` routes
+
+## Available Categories
+- login
+- hero-section
+- pricing
+- features
+- testimonials
+- faq
+- cta
+- footer
+- navbar
+- sidebar
+- dashboard
+- forms
+- cards
+- tables
+- modals
+- dropdowns
+- buttons
+- inputs
+- badges
+- alerts
+- avatars
+- tooltips
+- tabs
+- accordions
+- carousels
+- calendars
+- charts
+- command
+- context-menu
+- dialog
+- hover-card
+- label
+- menubar
+- popover
+- progress
+- radio-group
+- scroll-area
+- select
+- separator
+- sheet
+- skeleton
+- slider
+- switch
+- textarea
+- toast
+- toggle
+- toggle-group 
