@@ -31,6 +31,11 @@ export const SiteHeader = () => {
                                 Blocks
                             </Link>
                         </Button>
+                        <Button asChild size="sm" variant="ghost" className={cn('text-foreground/75 rounded-full', isActive('/templates') && 'text-foreground')}>
+                            <Link href="/templates" className="!text-sm">
+                                Templates
+                            </Link>
+                        </Button>
                         <div className="relative flex items-center">
                             <Button
                                 asChild
@@ -53,7 +58,7 @@ export const SiteHeader = () => {
                         variant="link"
                         className="text-foreground decoration-primary gap-1">
                         <Link
-                            href="https://github.com/Meschacirung/cnblocks/"
+                            href="https://github.com/VibeOpsAI/ui-kit"
                             target="_blank"
                             className="text-sm">
                             GitHub

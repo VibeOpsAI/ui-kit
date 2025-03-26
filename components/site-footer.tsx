@@ -11,10 +11,10 @@ export const SiteFooter = () => (
                 <Logo className="size-5" />
             </Link>
             <div className="mt-2 flex flex-wrap gap-1 overflow-hidden text-sm font-medium text-gray-700 dark:text-gray-300">
-                Designed by Vibe UI in
+                Designed by Vibe UI
                 <div className="flex items-start justify-center gap-2 text-center font-semibold text-gray-950 sm:gap-1 dark:text-white">
                     <div className="block">
-                        <div className="block pb-2">DR Congo</div>
+                        <div className="block pb-2">For You</div>
                         <div className="-mt-5 grow overflow-hidden">
                             <svg aria-hidden="true" className="w-16" height="22" viewBox="0 0 283 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.24715 19.3744C72.4051 10.3594 228.122 -4.71194 281.724 7.12332" stroke="url(#paint0_linear_pl)" strokeWidth="4"></path>
@@ -31,7 +31,7 @@ export const SiteFooter = () => (
             </div>
             <div className="flex">
                 <Button asChild variant="link" className="text-foreground decoration-primary -ml-4 gap-1">
-                    <Link href="https://github.com/Meschacirung/cnblocks" target="_blank" className="text-sm">
+                    <Link href="https://github.com/VibeOpsAI/ui-kit" target="_blank" className="text-sm">
                         GitHub
                         <ArrowUpRight className="!size-3.5 opacity-50" />
                     </Link>
