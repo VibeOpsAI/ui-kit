@@ -43,8 +43,8 @@ export default function HeroSection() {
                                     <div aria-hidden className="z-2 absolute inset-0 size-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,transparent_40%,var(--color-background)_100%)]" />
                                     <div aria-hidden className="z-2 absolute inset-0 size-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,transparent_40%,var(--color-background)_100%)]" />
 
-                                    <Image className="rounded-(--radius) z-1 relative border dark:hidden" src="/card.png" alt="tailus ui hero section" width={2880} height={2074} />
-                                    <Image className="rounded-(--radius) z-1 relative hidden border dark:block" src="/dark-card.webp" alt="tailus ui hero section" width={2880} height={2074} />
+                                    <Image className="rounded-(--radius) z-1 relative border dark:hidden" src="/card.png" alt="vibe ui hero section" width={2880} height={2074} />
+                                    <Image className="rounded-(--radius) z-1 relative hidden border dark:block" src="/dark-card.webp" alt="vibe ui hero section" width={2880} height={2074} />
                                 </div>
                             </div>
                         </div>
@@ -55,17 +55,17 @@ export default function HeroSection() {
                     <div className="m-auto max-w-5xl px-6">
                         <h2 className="text-center text-lg font-medium">Your favorite companies are our partners.</h2>
                         <div className="mx-auto mt-20 flex max-w-4xl flex-wrap items-center justify-center gap-x-12 gap-y-8 sm:gap-x-16 sm:gap-y-12">
-                            <img className="h-5 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/nvidia.svg" alt="Nvidia Logo" height="20" width="auto" />
-                            <img className="h-4 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/column.svg" alt="Column Logo" height="16" width="auto" />
-                            <img className="h-4 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/github.svg" alt="GitHub Logo" height="16" width="auto" />
-                            <img className="h-5 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/nike.svg" alt="Nike Logo" height="20" width="auto" />
-                            <img className="h-4 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/laravel.svg" alt="Laravel Logo" height="16" width="auto" />
-                            <img className="h-7 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/lilly.svg" alt="Lilly Logo" height="28" width="auto" />
-                            <img className="h-5 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/lemonsqueezy.svg" alt="Lemon Squeezy Logo" height="20" width="auto" />
-                            <img className="h-6 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/openai.svg" alt="OpenAI Logo" height="24" width="auto" />
-                            <img className="h-4 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/tailwindcss.svg" alt="Tailwind CSS Logo" height="16" width="auto" />
-                            <img className="h-5 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/vercel.svg" alt="Vercel Logo" height="20" width="auto" />
-                            <img className="h-5 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/zapier.svg" alt="Zapier Logo" height="20" width="auto" />
+                            <img className="h-5 w-fit dark:invert" src="/logos/nvidia.svg" alt="Nvidia Logo" height="20" width="auto" />
+                            <img className="h-4 w-fit dark:invert" src="/logos/amazon.svg" alt="Column Logo" height="16" width="auto" />
+                            <img className="h-4 w-fit dark:invert" src="/logos/github-mark.svg" alt="GitHub Logo" height="16" width="auto" />
+                            <img className="h-5 w-fit dark:invert" src="/logos/nike.svg" alt="Nike Logo" height="20" width="auto" />
+                            <img className="h-4 w-fit dark:invert" src="/logos/laravel.svg" alt="Laravel Logo" height="16" width="auto" />
+                            <img className="h-7 w-fit dark:invert" src="/logos/Ferrari_wordmark.svg" alt="Lilly Logo" height="28" width="auto" />
+                            <img className="h-5 w-fit dark:invert" src="/logos/Tesla,_Inc._-_Logo_(black_script_version).svg" alt="Lemon Squeezy Logo" height="20" width="auto" />
+                            <img className="h-6 w-fit dark:invert" src="/logos/OpenAI_logo_2025.svg" alt="OpenAI Logo" height="24" width="auto" />
+                            <img className="h-4 w-fit dark:invert" src="/logos/amazon.svg" alt="Tailwind CSS Logo" height="16" width="auto" />
+                            <img className="h-5 w-fit dark:invert" src="/logos/Vercel_logo_black.svg" alt="Vercel Logo" height="20" width="auto" />
+                            <img className="h-5 w-fit dark:invert" src="/logos/Tesla,_Inc._-_Logo_(black_script_version).svg" alt="Zapier Logo" height="20" width="auto" />
                         </div>
                     </div>
                 </section>
@@ -123,7 +123,7 @@ export default function HeroSection() {
                 <section className="bg-zinc-50 py-12 md:py-20 dark:bg-zinc-900/50">
                     <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
                         <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center">
-                            <h2 className="text-4xl font-medium lg:text-5xl">Tailus UI in numbers</h2>
+                            <h2 className="text-4xl font-medium lg:text-5xl">Vibe UI in numbers</h2>
                             <p>Gemini is evolving to be more than just the models. It supports an entire to the APIs and platforms helping developers and businesses innovate.</p>
                         </div>
 
@@ -163,11 +163,11 @@ export default function HeroSection() {
 
                                 <div className="pt-6">
                                     <blockquote className="border-l-4 pl-4">
-                                        <p>Using TailsUI has been like unlocking a secret design superpower. It's the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly.</p>
+                                        <p>Using Vibe UI has been like unlocking a secret design superpower. It's the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly.</p>
 
                                         <div className="mt-6 space-y-3">
                                             <cite className="block font-medium">John Doe, CEO</cite>
-                                            <img className="h-5 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/nvidia.svg" alt="Nvidia Logo" height="20" width="auto" />
+                                            <img className="h-5 w-fit dark:invert" src="/logos/nvidia.svg" alt="Nvidia Logo" height="20" width="auto" />
                                         </div>
                                     </blockquote>
                                 </div>
@@ -180,10 +180,10 @@ export default function HeroSection() {
                     <div className="mx-auto max-w-5xl px-6">
                         <div className="mx-auto max-w-2xl">
                             <blockquote>
-                                <p className="text-lg font-semibold sm:text-xl md:text-3xl">Using TailsUI has been like unlocking a secret design superpower. It's the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly.</p>
+                                <p className="text-lg font-semibold sm:text-xl md:text-3xl">Using Vibe UI has been like unlocking a secret design superpower. It's the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly.</p>
 
                                 <div className="mt-12 flex items-center gap-6">
-                                    <img className="h-7 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/nvidia.svg" alt="Nvidia Logo" height="20" width="auto" />
+                                    <img className="h-7 w-fit dark:invert" src="/logos/nvidia.svg" alt="Nvidia Logo" height="20" width="auto" />
                                     <div className="space-y-1 border-l pl-6">
                                         <cite className="font-medium">John Doe</cite>
                                         <span className="text-muted-foreground block text-sm">CEO, Nvidia</span>
@@ -242,15 +242,15 @@ export default function HeroSection() {
                         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-rows-2">
                             <Card className="grid grid-rows-[auto_1fr] gap-8 sm:col-span-2 sm:p-6 lg:row-span-2">
                                 <CardHeader>
-                                    <img className="h-6 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/nike.svg" alt="Nike Logo" height="24" width="auto" />
+                                    <img className="h-6 w-fit dark:invert" src="/logos/nike.svg" alt="Nike Logo" height="24" width="auto" />
                                 </CardHeader>
                                 <CardContent>
                                     <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
-                                        <p className="text-xl font-medium">Tailus has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow. The flexibility to customize every aspect allows me to create unique user experiences. Tailus is a game-changer for modern web development</p>
+                                        <p className="text-xl font-medium">Vibe UI has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow. The flexibility to customize every aspect allows me to create unique user experiences. Vibe UI is a game-changer for modern web development</p>
 
                                         <div className="grid grid-cols-[auto_1fr] items-center gap-3">
                                             <Avatar className="size-12">
-                                                <AvatarImage src="https://tailus.io/images/reviews/shekinah.webp" alt="Shekinah Tshiokufila" height="400" width="400" loading="lazy" />
+                                                <AvatarImage src="https://vibeops.io/images/reviews/shekinah.webp" alt="Shekinah Tshiokufila" height="400" width="400" loading="lazy" />
                                                 <AvatarFallback>ST</AvatarFallback>
                                             </Avatar>
 
@@ -265,11 +265,11 @@ export default function HeroSection() {
                             <Card className="md:col-span-2">
                                 <CardContent className="h-full pt-6">
                                     <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
-                                        <p className="text-xl font-medium">Tailus is really extraordinary and very practical, no need to break your head. A real gold mine.</p>
+                                        <p className="text-xl font-medium">Vibe UI is really extraordinary and very practical, no need to break your head. A real gold mine.</p>
 
                                         <div className="grid grid-cols-[auto_1fr] items-center gap-3">
                                             <Avatar className="size-12">
-                                                <AvatarImage src="https://tailus.io/images/reviews/jonathan.webp" alt="Jonathan Yombo" height="400" width="400" loading="lazy" />
+                                                <AvatarImage src="https://vibeops.io/images/reviews/jonathan.webp" alt="Jonathan Yombo" height="400" width="400" loading="lazy" />
                                                 <AvatarFallback>JY</AvatarFallback>
                                             </Avatar>
                                             <div>
@@ -287,7 +287,7 @@ export default function HeroSection() {
 
                                         <div className="grid items-center gap-3 [grid-template-columns:auto_1fr]">
                                             <Avatar className="size-12">
-                                                <AvatarImage src="https://tailus.io/images/reviews/yucel.webp" alt="Yucel Faruksahan" height="400" width="400" loading="lazy" />
+                                                <AvatarImage src="https://vibeops.io/images/reviews/yucel.webp" alt="Yucel Faruksahan" height="400" width="400" loading="lazy" />
                                                 <AvatarFallback>YF</AvatarFallback>
                                             </Avatar>
                                             <div>
@@ -305,7 +305,7 @@ export default function HeroSection() {
 
                                         <div className="grid grid-cols-[auto_1fr] gap-3">
                                             <Avatar className="size-12">
-                                                <AvatarImage src="https://tailus.io/images/reviews/rodrigo.webp" alt="Rodrigo Aguilar" height="400" width="400" loading="lazy" />
+                                                <AvatarImage src="https://vibeops.io/images/reviews/rodrigo.webp" alt="Rodrigo Aguilar" height="400" width="400" loading="lazy" />
                                                 <AvatarFallback>YF</AvatarFallback>
                                             </Avatar>
                                             <div>

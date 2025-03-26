@@ -11,7 +11,7 @@ export const SiteFooter = () => (
                 <Logo className="size-5" />
             </Link>
             <div className="mt-2 flex flex-wrap gap-1 overflow-hidden text-sm font-medium text-gray-700 dark:text-gray-300">
-                Designed by Tailus UI in
+                Designed by Vibe UI in
                 <div className="flex items-start justify-center gap-2 text-center font-semibold text-gray-950 sm:gap-1 dark:text-white">
                     <div className="block">
                         <div className="block pb-2">DR Congo</div>

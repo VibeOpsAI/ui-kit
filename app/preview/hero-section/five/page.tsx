@@ -64,7 +64,7 @@ export default function HeroSection() {
                                     <div className="flex">
                                         <img
                                             className="mx-auto h-5 w-fit dark:invert"
-                                            src="https://html.tailus.io/blocks/customers/nvidia.svg"
+                                            src="/logos/nvidia.svg"
                                             alt="Nvidia Logo"
                                             height="20"
                                             width="auto"
@@ -74,7 +74,7 @@ export default function HeroSection() {
                                     <div className="flex">
                                         <img
                                             className="mx-auto h-4 w-fit dark:invert"
-                                            src="https://html.tailus.io/blocks/customers/column.svg"
+                                            src="/logos/amazon.svg"
                                             alt="Column Logo"
                                             height="16"
                                             width="auto"
@@ -83,7 +83,7 @@ export default function HeroSection() {
                                     <div className="flex">
                                         <img
                                             className="mx-auto h-4 w-fit dark:invert"
-                                            src="https://html.tailus.io/blocks/customers/github.svg"
+                                            src="/logos/github-mark.svg"
                                             alt="GitHub Logo"
                                             height="16"
                                             width="auto"
@@ -92,7 +92,7 @@ export default function HeroSection() {
                                     <div className="flex">
                                         <img
                                             className="mx-auto h-5 w-fit dark:invert"
-                                            src="https://html.tailus.io/blocks/customers/nike.svg"
+                                            src="/logos/nike.svg"
                                             alt="Nike Logo"
                                             height="20"
                                             width="auto"
@@ -101,7 +101,7 @@ export default function HeroSection() {
                                     <div className="flex">
                                         <img
                                             className="mx-auto h-5 w-fit dark:invert"
-                                            src="https://html.tailus.io/blocks/customers/lemonsqueezy.svg"
+                                            src="/logos/Tesla,_Inc._-_Logo_(black_script_version).svg"
                                             alt="Lemon Squeezy Logo"
                                             height="20"
                                             width="auto"
@@ -110,7 +110,7 @@ export default function HeroSection() {
                                     <div className="flex">
                                         <img
                                             className="mx-auto h-4 w-fit dark:invert"
-                                            src="https://html.tailus.io/blocks/customers/laravel.svg"
+                                            src="/logos/laravel.svg"
                                             alt="Laravel Logo"
                                             height="16"
                                             width="auto"
@@ -119,7 +119,7 @@ export default function HeroSection() {
                                     <div className="flex">
                                         <img
                                             className="mx-auto h-7 w-fit dark:invert"
-                                            src="https://html.tailus.io/blocks/customers/lilly.svg"
+                                            src="/logos/Ferrari_wordmark.svg"
                                             alt="Lilly Logo"
                                             height="28"
                                             width="auto"
@@ -129,7 +129,7 @@ export default function HeroSection() {
                                     <div className="flex">
                                         <img
                                             className="mx-auto h-6 w-fit dark:invert"
-                                            src="https://html.tailus.io/blocks/customers/openai.svg"
+                                            src="/logos/OpenAI_logo_2025.svg"
                                             alt="OpenAI Logo"
                                             height="24"
                                             width="auto"

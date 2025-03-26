@@ -71,7 +71,7 @@ export default function HeroSection() {
                             <div className="relative z-10 mx-auto max-w-xl text-center lg:ml-0 lg:w-1/2 lg:text-left">
                                 <Link href="/" className="rounded-(--radius) mx-auto flex w-fit items-center gap-2 border p-1 pr-3 lg:ml-0">
                                     <span className="bg-muted rounded-[calc(var(--radius)-0.25rem)] px-2 py-1 text-xs">New</span>
-                                    <span className="text-sm">Introduction Tailus UI Html</span>
+                                    <span className="text-sm">Introduction Vibe UI Html</span>
                                     <span className="bg-(--color-border) block h-4 w-px"></span>
 
                                     <ArrowRight className="size-4" />

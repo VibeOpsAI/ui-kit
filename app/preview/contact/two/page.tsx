@@ -16,8 +16,8 @@ export default function ContactSection() {
                     <div className="flex flex-col justify-between space-y-8 p-6 sm:p-12">
                         <div>
                             <h2 className="mb-3 text-lg font-semibold">Collaborate</h2>
-                            <Link href="mailto:hello@tailus.io" className="text-lg text-blue-600 hover:underline dark:text-blue-400">
-                                hello@tailus.io
+                            <Link href="mailto:hello@vibeops.io" className="text-lg text-blue-600 hover:underline dark:text-blue-400">
+                                hello@vibeops.io
                             </Link>
                             <p className="mt-3 text-sm">+243 000 000 000</p>
                         </div>
@@ -25,8 +25,8 @@ export default function ContactSection() {
                     <div className="flex flex-col justify-between space-y-8 p-6 sm:p-12">
                         <div>
                             <h3 className="mb-3 text-lg font-semibold">Press</h3>
-                            <Link href="mailto:press@tailus.io" className="text-lg text-blue-600 hover:underline dark:text-blue-400">
-                                press@tailus.io
+                            <Link href="mailto:press@vibeops.io" className="text-lg text-blue-600 hover:underline dark:text-blue-400">
+                                press@vibeops.io
                             </Link>
                             <p className="mt-3 text-sm">+243 000 000 000</p>
                         </div>

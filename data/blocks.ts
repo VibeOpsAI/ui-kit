@@ -450,6 +450,13 @@ export const blocks: Block[] = [
         preview: '/preview/login/three',
         code: loadCode('app/preview/login/three/page.tsx'),
     },
+    {
+        slug: 'login',
+        title: 'split',
+        category: 'login',
+        preview: '/preview/login/split',
+        code: loadCode('app/preview/login/split/page.tsx'),
+    },
 
     {
         slug: 'sign-up',

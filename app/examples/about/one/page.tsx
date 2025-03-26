@@ -7,37 +7,37 @@ const members = [
     {
         name: 'Liam Brown',
         role: 'Founder - CEO',
-        avatar: 'https://alt.tailus.io/images/team/member-one.webp',
+        avatar: 'https://alt.vibeops.io/images/team/member-one.webp',
         link: '#',
     },
     {
         name: 'Elijah Jones',
         role: 'Co-Founder - CTO',
-        avatar: 'https://alt.tailus.io/images/team/member-two.webp',
+        avatar: 'https://alt.vibeops.io/images/team/member-two.webp',
         link: '#',
     },
     {
         name: 'Isabella Garcia',
         role: 'Sales Manager',
-        avatar: 'https://alt.tailus.io/images/team/member-three.webp',
+        avatar: 'https://alt.vibeops.io/images/team/member-three.webp',
         link: '#',
     },
     {
         name: 'Henry Lee',
         role: 'UX Engeneer',
-        avatar: 'https://alt.tailus.io/images/team/member-four.webp',
+        avatar: 'https://alt.vibeops.io/images/team/member-four.webp',
         link: '#',
     },
     {
         name: 'Ava Williams',
         role: 'Interaction Designer',
-        avatar: 'https://alt.tailus.io/images/team/member-five.webp',
+        avatar: 'https://alt.vibeops.io/images/team/member-five.webp',
         link: '#',
     },
     {
         name: 'Olivia Miller',
         role: 'Visual Designer',
-        avatar: 'https://alt.tailus.io/images/team/member-six.webp',
+        avatar: 'https://alt.vibeops.io/images/team/member-six.webp',
         link: '#',
     },
 ]
@@ -91,7 +91,7 @@ export default function HeroSection() {
 
                         <p className="text-accent-foreground">Lyra is evolving to be more than just the models. It supports an entire ecosystem — from products to the APIs and platforms helping developers and businesses innovate.</p>
                         <p className="mt-4">
-                            Tailus UI. <span className="font-bold">It supports an entire ecosystem</span> — from products innovate. Sit minus, quod debitis autem quia aspernatur delectus impedit modi, neque non id ad dignissimos? Saepe deleniti perferendis beatae.
+                            Vibe UI. <span className="font-bold">It supports an entire ecosystem</span> — from products innovate. Sit minus, quod debitis autem quia aspernatur delectus impedit modi, neque non id ad dignissimos? Saepe deleniti perferendis beatae.
                         </p>
                     </div>
                 </section>
@@ -150,17 +150,17 @@ export default function HeroSection() {
                     <div className="mx-auto max-w-5xl px-6">
                         <h2 className="text-center text-lg font-medium">Your favorite companies are our partners.</h2>
                         <div className="mx-auto mt-20 flex max-w-4xl flex-wrap items-center justify-center gap-x-12 gap-y-8 sm:gap-x-16 sm:gap-y-12">
-                            <img className="h-5 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/nvidia.svg" alt="Nvidia Logo" height="20" width="auto" />
-                            <img className="h-4 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/column.svg" alt="Column Logo" height="16" width="auto" />
-                            <img className="h-4 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/github.svg" alt="GitHub Logo" height="16" width="auto" />
-                            <img className="h-5 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/nike.svg" alt="Nike Logo" height="20" width="auto" />
-                            <img className="h-4 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/laravel.svg" alt="Laravel Logo" height="16" width="auto" />
-                            <img className="h-7 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/lilly.svg" alt="Lilly Logo" height="28" width="auto" />
-                            <img className="h-5 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/lemonsqueezy.svg" alt="Lemon Squeezy Logo" height="20" width="auto" />
-                            <img className="h-6 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/openai.svg" alt="OpenAI Logo" height="24" width="auto" />
-                            <img className="h-4 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/tailwindcss.svg" alt="Tailwind CSS Logo" height="16" width="auto" />
-                            <img className="h-5 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/vercel.svg" alt="Vercel Logo" height="20" width="auto" />
-                            <img className="h-5 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/zapier.svg" alt="Zapier Logo" height="20" width="auto" />
+                            <img className="h-5 w-fit dark:invert" src="/logos/nvidia.svg" alt="Nvidia Logo" height="20" width="auto" />
+                            <img className="h-4 w-fit dark:invert" src="/logos/amazon.svg" alt="Column Logo" height="16" width="auto" />
+                            <img className="h-4 w-fit dark:invert" src="/logos/github-mark.svg" alt="GitHub Logo" height="16" width="auto" />
+                            <img className="h-5 w-fit dark:invert" src="/logos/nike.svg" alt="Nike Logo" height="20" width="auto" />
+                            <img className="h-4 w-fit dark:invert" src="/logos/laravel.svg" alt="Laravel Logo" height="16" width="auto" />
+                            <img className="h-7 w-fit dark:invert" src="/logos/Ferrari_wordmark.svg" alt="Lilly Logo" height="28" width="auto" />
+                            <img className="h-5 w-fit dark:invert" src="/logos/Tesla,_Inc._-_Logo_(black_script_version).svg" alt="Lemon Squeezy Logo" height="20" width="auto" />
+                            <img className="h-6 w-fit dark:invert" src="/logos/OpenAI_logo_2025.svg" alt="OpenAI Logo" height="24" width="auto" />
+                            <img className="h-4 w-fit dark:invert" src="/logos/amazon.svg" alt="Tailwind CSS Logo" height="16" width="auto" />
+                            <img className="h-5 w-fit dark:invert" src="/logos/Vercel_logo_black.svg" alt="Vercel Logo" height="20" width="auto" />
+                            <img className="h-5 w-fit dark:invert" src="/logos/Tesla,_Inc._-_Logo_(black_script_version).svg" alt="Zapier Logo" height="20" width="auto" />
                         </div>
                     </div>
                 </section>

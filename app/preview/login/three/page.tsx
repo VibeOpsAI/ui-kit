@@ -13,7 +13,7 @@ export default function LoginPage() {
                         <Link href="/" aria-label="go home">
                             <Logo />
                         </Link>
-                        <h1 className="mb-1 mt-4 text-xl font-semibold">Sign In to Tailus UI</h1>
+                        <h1 className="mb-1 mt-4 text-xl font-semibold">Sign In to Vibe UI</h1>
                         <p>Welcome back! Sign in to continue</p>
                     </div>
 

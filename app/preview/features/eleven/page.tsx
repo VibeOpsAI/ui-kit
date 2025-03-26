@@ -86,7 +86,7 @@ export default function Features() {
                                 <div className="rounded-(--radius) bg-muted/50 flex aspect-square items-center justify-center border p-4">
                                     <img
                                         className="m-auto size-8 invert dark:invert-0"
-                                        src="https://oxymor-ns.tailus.io/logos/linear.svg"
+                                        src="https://oxymor-ns.vibeops.io/logos/linear.svg"
                                         alt="Linear logo"
                                         width="32"
                                         height="32"
@@ -96,7 +96,7 @@ export default function Features() {
                                 <div className="rounded-(--radius) bg-muted/50 flex aspect-square items-center justify-center border p-4">
                                     <img
                                         className="m-auto size-8 invert dark:invert-0"
-                                        src="https://oxymor-ns.tailus.io/logos/netlify.svg"
+                                        src="https://oxymor-ns.vibeops.io/logos/netlify.svg"
                                         alt="Netlify logo"
                                         width="32"
                                         height="32"
@@ -106,7 +106,7 @@ export default function Features() {
                                 <div className="rounded-(--radius) bg-muted/50 flex aspect-square items-center justify-center border p-4">
                                     <img
                                         className="m-auto size-8 invert dark:invert-0"
-                                        src="https://oxymor-ns.tailus.io/logos/github.svg"
+                                        src="https://oxymor-ns.vibeops.io/logos/github.svg"
                                         alt="github logo"
                                         width="32"
                                         height="32"

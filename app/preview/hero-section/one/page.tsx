@@ -128,26 +128,21 @@ export default function HeroSection() {
                                         ...transitionVariants,
                                     }}
                                     className="mt-12 flex flex-col items-center justify-center gap-2 md:flex-row">
-                                    <div
+                                    <Button
                                         key={1}
-                                        className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5">
-                                        <Button
-                                            asChild
-                                            size="lg"
-                                            className="rounded-xl px-5 text-base">
-                                            <Link href="#link">
-                                                <span className="text-nowrap">Start Building</span>
-                                            </Link>
-                                        </Button>
-                                    </div>
+                                        asChild
+                                        size="lg">
+                                        <Link href="#link">
+                                            Start Building
+                                        </Link>
+                                    </Button>
                                     <Button
                                         key={2}
                                         asChild
                                         size="lg"
-                                        variant="ghost"
-                                        className="h-10.5 rounded-xl px-5">
+                                        variant="ghost">
                                         <Link href="#link">
-                                            <span className="text-nowrap">Request a demo</span>
+                                            Request a demo
                                         </Link>
                                     </Button>
                                 </AnimatedGroup>
@@ -206,7 +201,7 @@ export default function HeroSection() {
                             <div className="flex">
                                 <img
                                     className="mx-auto h-5 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/nvidia.svg"
+                                    src="/logos/nvidia.svg"
                                     alt="Nvidia Logo"
                                     height="20"
                                     width="auto"
@@ -216,7 +211,7 @@ export default function HeroSection() {
                             <div className="flex">
                                 <img
                                     className="mx-auto h-4 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/column.svg"
+                                    src="/logos/amazon.svg"
                                     alt="Column Logo"
                                     height="16"
                                     width="auto"
@@ -225,7 +220,7 @@ export default function HeroSection() {
                             <div className="flex">
                                 <img
                                     className="mx-auto h-4 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/github.svg"
+                                    src="/logos/github-mark.svg"
                                     alt="GitHub Logo"
                                     height="16"
                                     width="auto"
@@ -234,7 +229,7 @@ export default function HeroSection() {
                             <div className="flex">
                                 <img
                                     className="mx-auto h-5 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/nike.svg"
+                                    src="/logos/nike.svg"
                                     alt="Nike Logo"
                                     height="20"
                                     width="auto"
@@ -243,7 +238,7 @@ export default function HeroSection() {
                             <div className="flex">
                                 <img
                                     className="mx-auto h-5 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/lemonsqueezy.svg"
+                                    src="/logos/Tesla,_Inc._-_Logo_(black_script_version).svg"
                                     alt="Lemon Squeezy Logo"
                                     height="20"
                                     width="auto"
@@ -252,7 +247,7 @@ export default function HeroSection() {
                             <div className="flex">
                                 <img
                                     className="mx-auto h-4 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/laravel.svg"
+                                    src="/logos/laravel.svg"
                                     alt="Laravel Logo"
                                     height="16"
                                     width="auto"
@@ -261,7 +256,7 @@ export default function HeroSection() {
                             <div className="flex">
                                 <img
                                     className="mx-auto h-7 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/lilly.svg"
+                                    src="/logos/Ferrari_wordmark.svg"
                                     alt="Lilly Logo"
                                     height="28"
                                     width="auto"
@@ -271,7 +266,7 @@ export default function HeroSection() {
                             <div className="flex">
                                 <img
                                     className="mx-auto h-6 w-fit dark:invert"
-                                    src="https://html.tailus.io/blocks/customers/openai.svg"
+                                    src="/logos/OpenAI_logo_2025.svg"
                                     alt="OpenAI Logo"
                                     height="24"
                                     width="auto"

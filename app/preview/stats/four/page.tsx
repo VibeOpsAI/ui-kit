@@ -24,11 +24,11 @@ export default function StatsSection() {
                     </div>
                     <div className="relative">
                         <blockquote className="border-l-4 pl-4">
-                            <p>Using TailsUI has been like unlocking a secret design superpower. It's the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly.</p>
+                            <p>Using Vibe UI has been like unlocking a secret design superpower. It's the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly.</p>
 
                             <div className="mt-6 space-y-3">
                                 <cite className="block font-medium">John Doe, CEO</cite>
-                                <img className="h-5 w-fit dark:invert" src="https://html.tailus.io/blocks/customers/nvidia.svg" alt="Nvidia Logo" height="20" width="auto" />
+                                <img className="h-5 w-fit dark:invert" src="/logos/nvidia.svg" alt="Nvidia Logo" height="20" width="auto" />
                             </div>
                         </blockquote>
                     </div>
